@@ -1,20 +1,18 @@
 # ElixirApi
 
-To start your Phoenix server:
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+### dependencies
+* credo
+  > https://github.com/rrrene/credo
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+### testing
+- install dependencies
+  > `mix deps.get`
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+- create and migrate your database
+  > `mix ecto.setup`
 
-## Learn more
+- start enpoint and visit localhost:4000
+  > `mix phx.server`
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
-# elixir_api
+
