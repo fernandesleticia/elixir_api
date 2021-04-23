@@ -4,6 +4,7 @@ use Mix.Config
 config :elixir_api, ElixirApi.Repo,
   username: "postgres",
   password: "postgres",
+  port: 5432,
   database: "elixir_api_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
