@@ -10,6 +10,10 @@ use Mix.Config
 config :elixir_api,
   ecto_repos: [ElixirApi.Repo]
 
+config :elixir_api, ElixirApi.Repo,
+  migration_primary_key: [type: :binary_id],
+  migration_foreign_key: [type: :binary_id]
+
 # Configures the endpoint
 config :elixir_api, ElixirApiWeb.Endpoint,
   url: [host: "localhost"],
