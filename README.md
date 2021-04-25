@@ -1,5 +1,5 @@
 ## About
-A sample API using Elixir and Phoenix to manage restaurant's supplies by sending a email with the supplies about to expire
+A sample API using Elixir and Phoenix to manage restaurant's supplies by automatically sending a email with the supplies about to expire
 
 ## Dependencies
 * phoenix ~> 1.5.8
