@@ -46,3 +46,5 @@ A sample API using Elixir and Phoenix to manage restaurant's supplies by automat
 - checking bamboo sent emails
   > GET localhost:4000/sent_emails
 
+## To run the tests
+ > mix test
