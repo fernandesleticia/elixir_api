@@ -1,9 +1,5 @@
 defmodule ElixirApi do
-  @moduledoc """
-  ElixirApi keeps the contexts that define your domain
-  and business logic.
+  alias ElixirApi.Restaurants.Create
 
-  Contexts are also responsible for managing your data, regardless
-  if it comes from the database, an external API or others.
-  """
+  defdelegate create_restaurant(params), to: Create, as: :call
 end
