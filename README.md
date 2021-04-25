@@ -41,4 +41,6 @@ A sample API using Elixir and Phoenix to manage restaurant's supplies by sending
 - creating a supply
   > POST localhost:4000/api/supplies?description=morango&expiration_date=2021-04-12&responsible=let&restaurant_id=709dbe09-09b6-43f0-8571-99d9d96d54fa
 
+- checking bamboo sent emails
+  > GET localhost:4000/sent_emails
 
