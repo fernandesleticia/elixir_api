@@ -2,6 +2,8 @@ defmodule ElixirApi.Restaurant do
   use Ecto.Schema
   import Ecto.Changeset
 
+  alias ElixirApi.Supply
+
   @primary_key {:id, :binary_id, autogenerate: true}
 
   @required_params [:email, :name]
@@ -11,6 +13,8 @@ defmodule ElixirApi.Restaurant do
   schema "restaurants" do
     field :email, :string
     field :name, :string
+
+    has_many :supplies, Supply
 
     timestamps()
   end
