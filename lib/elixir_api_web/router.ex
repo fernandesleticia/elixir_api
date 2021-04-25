@@ -30,4 +30,8 @@ defmodule ElixirApiWeb.Router do
       live_dashboard "/dashboard", metrics: ElixirApiWeb.Telemetry
     end
   end
+
+  if Mix.env() == :dev do
+    forward "/sent_emails", Bamboo.SentEmailViewerPlug
+  end
 end
