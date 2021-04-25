@@ -1,10 +1,10 @@
 defmodule ElixirApiWeb.RestaurantsViewTest do
-  use ElixirApiWeb.ConnCase
+  use ElixirApiWeb.ConnCase, async: true
 
   import Phoenix.View
 
-  alias ElixirApiWeb.RestaurantsView
   alias ElixirApi.Restaurant
+  alias ElixirApiWeb.RestaurantsView
 
   describe "render/2" do
     test "renders create.json" do

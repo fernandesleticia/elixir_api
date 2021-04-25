@@ -1,5 +1,5 @@
 defmodule ElixirApiWeb.RestaurantsControllerTest do
-  use ElixirApiWeb.ConnCase
+  use ElixirApiWeb.ConnCase, async: true
 
   describe "create/2" do
     test "when the params are valid, create the restaurant", %{conn: conn} do

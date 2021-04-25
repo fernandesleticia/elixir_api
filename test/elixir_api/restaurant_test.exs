@@ -1,5 +1,5 @@
 defmodule ElixirApi.RestaurantTest do
-  use ElixirApi.DataCase
+  use ElixirApi.DataCase, async: true
 
   alias ElixirApi.Restaurant
   alias Ecto.Changeset
