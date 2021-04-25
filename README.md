@@ -15,6 +15,9 @@
 - start enpoint and visit localhost:4000
   > `mix phx.server`
 
+- creating
+  > POST localhost:4000/api/restaurants?name=let&email="email@let.com
+
 ### testing database
 - creating entry
 > alias ElixirApi.Repo
