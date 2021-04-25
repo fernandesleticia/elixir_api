@@ -14,11 +14,17 @@
 - create and migrate your database
   > `mix ecto.setup`
 
-- start enpoint and visit localhost:4000
+- start server and visit localhost:4000
   > `mix phx.server`
+
+- start server with console
+  > `iex -S mix phx.server`
 
 - creating
   > POST localhost:4000/api/restaurants?name=let&email="email@let.com
+
+- sending email
+  > ElixirApi.Supplies.ExpirationNotification.send()
 
 ### testing database
 - creating entry
