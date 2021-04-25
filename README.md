@@ -33,6 +33,8 @@ A sample API using Elixir and Phoenix to manage restaurant's supplies by sending
 - sending an email using console
   > ElixirApi.Supplies.ExpirationNotification.send()
 
+- scheduling the GenServer 
+  > {:ok, pid} = GenServer.start(ElixirApi.Supplies.Scheduler, %{})
 
 ## Endpoints
 - creating a restaurant
