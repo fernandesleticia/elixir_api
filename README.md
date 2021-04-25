@@ -1,7 +1,7 @@
-## ElixirApi
+## About
 A sample API using Elixir and Phoenix to manage restaurant's supplies by sending a email with the supplies about to expire
 
-### dependencies
+## Dependencies
 * phoenix ~> 1.5.8
   > https://github.com/phoenixframework/phoenix
 * elixir 1.11.3
@@ -10,7 +10,7 @@ A sample API using Elixir and Phoenix to manage restaurant's supplies by sending
   > https://github.com/rrrene/credo
 * bamboo ~> 2.1.0
   > https://github.com/thoughtbot/bamboo
-### testing
+## Testing
 - install dependencies
   > `mix deps.get`
 
@@ -34,7 +34,7 @@ A sample API using Elixir and Phoenix to manage restaurant's supplies by sending
   > ElixirApi.Supplies.ExpirationNotification.send()
 
 
-### endpoints
+## Endpoints
 - creating a restaurant
   > POST localhost:4000/api/restaurants?name=let&email="email@let.com
 
