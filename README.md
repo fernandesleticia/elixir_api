@@ -10,6 +10,8 @@ A sample API using Elixir and Phoenix to manage restaurant's supplies by automat
   > https://github.com/rrrene/credo
 * bamboo ~> 2.1.0
   > https://github.com/thoughtbot/bamboo
+* excoveralls ~> 0.10
+  > https://github.com/parroty/excoveralls
 ## Testing
 - install dependencies
   > `mix deps.get`
@@ -47,4 +49,11 @@ A sample API using Elixir and Phoenix to manage restaurant's supplies by automat
   > GET localhost:4000/sent_emails
 
 ## To run the tests
- > mix test
+> mix test
+
+## To see the test coverage
+> mix test --cover
+
+> mix coveralls.html
+
+*remove the async: true from the tests if you're not using postgres
