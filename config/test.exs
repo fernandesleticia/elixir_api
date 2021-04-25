@@ -12,6 +12,8 @@ config :elixir_api, ElixirApi.Repo,
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
 
+  config :elixir_api, ElixirApi.Mailer, adapter: Bamboo.TestAdapter
+
 # We don't run a server during test. If one is required,
 # you can enable the server option below.
 config :elixir_api, ElixirApiWeb.Endpoint,

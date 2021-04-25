@@ -14,6 +14,8 @@ config :elixir_api, ElixirApi.Repo,
   migration_primary_key: [type: :binary_id],
   migration_foreign_key: [type: :binary_id]
 
+config :elixir_api, ElixirApi.Mailer, adapter: Bamboo.LocalAdapter
+
 # Configures the endpoint
 config :elixir_api, ElixirApiWeb.Endpoint,
   url: [host: "localhost"],

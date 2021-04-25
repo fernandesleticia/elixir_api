@@ -4,6 +4,8 @@
 ### dependencies
 * credo
   > https://github.com/rrrene/credo
+* bamboo
+  > https://github.com/thoughtbot/bamboo
 
 ### testing
 - install dependencies
